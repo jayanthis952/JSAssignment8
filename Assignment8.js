@@ -1,0 +1,3 @@
+a) Yes, InnerFunction() is a closure because it is defined inside another function, OuterFunction(), and it accesses a variable, outerVariable, from the outer scope.
+
+b) The output of this program is an alert dialog with the message "100", because the InnerFunction() is returning a reference to itself, and when the reference is invoked using the variable innerFunc(), it is able to access the variable outerVariable defined in the OuterFunction() and alert its value.
